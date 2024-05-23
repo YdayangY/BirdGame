@@ -22,7 +22,7 @@ public class Column {
 	
 	public Column(int n) throws Exception
 	{
-		image=new ImageIcon("source/column.png").getImage();
+		image=new ImageIcon("../source/column.png").getImage();
 		width=image.getWidth(null);
 		height=image.getHeight(null);
 		gap=144;

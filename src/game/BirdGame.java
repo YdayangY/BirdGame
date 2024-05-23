@@ -33,9 +33,9 @@ public class BirdGame extends JPanel {
 		//初始背景图片
 		//background = new ImageIcon("D:\\java\\elipse\\project_workplace\\Bird\\src\\resources\\bg.png").getImage();//绝对路径
 		//background = new ImageIcon("src\\resources\\bg.png").getImage();//相对路径，一开始默认位置是Bird项目文件夹
-		background = new ImageIcon("./source/bg.png").getImage();
-		startImage = new ImageIcon("./source/start.png").getImage();
-		overImage=new ImageIcon("./source/gameover.png").getImage();
+		background = new ImageIcon("../source/bg.png").getImage();
+		startImage = new ImageIcon("../source/start.png").getImage();
+		overImage=new ImageIcon("../source/gameover.png").getImage();
 		//初始化地面、柱子、小鸟、分号、状态
 		ground=new Ground();
 		column1=new Column(1);

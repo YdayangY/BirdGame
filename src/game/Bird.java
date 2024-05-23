@@ -29,7 +29,7 @@ public class Bird {
 	
 	public Bird() throws Exception
 	{
-		image=new ImageIcon("source/0.png").getImage();
+		image=new ImageIcon("../source/0.png").getImage();
 		width = image.getWidth(null);
 		height = image.getHeight(null);
 		x=132;
@@ -49,7 +49,7 @@ public class Bird {
 		
 		for(int i=0;i<8;i++)
 		{
-			images[i]=new ImageIcon("source/"+i+".png").getImage();
+			images[i]=new ImageIcon("../source/"+i+".png").getImage();
 		}
 		index=0;
 		

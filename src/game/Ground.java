@@ -14,7 +14,7 @@ public class Ground {
 	//地面初始化
 	public Ground() throws Exception
 	{
-		image =new ImageIcon("source/ground.png").getImage();
+		image =new ImageIcon("../source/ground.png").getImage();
 		width=image.getWidth(null);
 		height=image.getHeight(null);
 		x=0;
